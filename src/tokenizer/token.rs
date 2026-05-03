@@ -1,10 +1,10 @@
 #[derive(Debug, PartialEq, Clone)]
-
 pub struct Attribute {
     pub name: String,
     pub value: String,
 }
 
+#[derive(Debug, PartialEq, Clone)]
 pub enum Token {
     StartTag {
         name: String,
